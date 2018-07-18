@@ -1,6 +1,6 @@
-<p>New Student Form</p>
+<p>Edit Student Form</p>
 
-<form class="" action='/students' method='post'
+<form class="" action='/students/<%= @student.id %>' method='post'
 
 <label for='first-name'>First Name:</label>
   <input id='first-name' type='text' name='first_name'/>
@@ -22,5 +22,5 @@
   <option value="4">Slytherin</option>
 </select>
 </br>
-<input type='submit' value='Create New Student'/>
+<input type='submit' value='Updating Students account'/>
 </form>

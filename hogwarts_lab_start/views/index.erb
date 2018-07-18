@@ -1,0 +1,7 @@
+<p>All The Students</p>
+
+<% for student in @students %>
+
+<p>Student called <%= student.format_name %> is a member of House <%= student.house.name.capitalize %></p>
+
+<% end %>
